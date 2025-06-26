@@ -12,7 +12,10 @@ function App() {
       <main>
         <section>
           <h2>About Me</h2>
-          <p>This is a short bio.</p>
+          <p>Dedicated IT professional with over four years of experience in software management and quality
+assurance. Proficient in SAP ABAP, Java, and Python, with a strong desire to expand my knowledge of
+SAP ABAP. Eager to apply my expertise in automation and data management to contribute to a
+progressive organization, enhancing operational efficiency and driving innovative solutions.</p>
         </section>
         <section>
           <h2>Projects</h2>
