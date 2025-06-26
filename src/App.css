@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 0;
+}
+
+section {
+  margin-top: 2rem;
+}
