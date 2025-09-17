@@ -1,6 +1,7 @@
 // src/components/Projects.js
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import Card from './Card';
 
 const Projects = () => (
   <section id="projects" className="my-16 px-4">
@@ -13,14 +14,31 @@ const Projects = () => (
         image="/images/Profile.jpeg"
         tags={['Java', 'J2EE', 'desktop', 'MySQL']}
       />
-      <ProjectCard
-        title="Attendance monitoring system with Biometric"
-        desc="develiped with Java and MySQL."
+      <Card
+        title="Attendance Monitoring System with Biometric"
+        desc="Developed with Java and MySQL."
         link="https://weatherdemo.com"
         image="/images/Profile.jpeg"
         tags={['Biometric', 'Java', , 'J2EE', 'MySQL', 'desktop']}
       />
+
+      {/* <Card
+        title="Point of Sale System"
+        desc="Developed with Java and J2EE, this system is designed for retail environments to manage sales transactions efficiently."
+        link="https://billyjoequitalig.github.io/my-portfolio/"
+        image="/images/Profile.jpeg"
+        tags={['Java', 'J2EE', 'Desktop', 'MySQL']}
+      /> */}
     </div>
+    {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <Card
+        title="Point of Sale System"
+        desc="Developed with Java and J2EE, this system is designed for retail environments to manage sales transactions efficiently."
+        link="https://billyjoequitalig.github.io/my-portfolio/"
+        image="/images/Profile.jpeg"
+        tags={['Java', 'J2EE', 'desktop', 'MySQL']}
+      />
+    </div> */}
   </section>
 );
 

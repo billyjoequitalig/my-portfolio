@@ -1,8 +1,8 @@
-// src/components/ProjectCard.js
 import React from 'react';
+import './Card.css';
 
-const ProjectCard = ({ title, desc, link, image, tags = [] }) => (
-  <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition overflow-hidden">
+const Card = ({ title, desc, link, image, tags = [] }) => (
+  <div className="card">
     {image && (
       <img
         src={image}
@@ -10,7 +10,7 @@ const ProjectCard = ({ title, desc, link, image, tags = [] }) => (
         className="w-full h-48 object-cover"
       />
     )}
-    <div className="p-6">
+    <div className="p-50">
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-gray-600 mb-4">{desc}</p>
       {tags.length > 0 && (
@@ -38,4 +38,4 @@ const ProjectCard = ({ title, desc, link, image, tags = [] }) => (
   </div>
 );
 
-export default ProjectCard;
+export default Card;

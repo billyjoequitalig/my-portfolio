@@ -1,15 +1,29 @@
 // src/components/About.js
 import React from 'react';
+import ProfileCard from './ProfileCard';
+
+
 
 const About = () => (
   <section id="about" className="my-16 px-4 text-center">
     <h2 className="text-3xl font-bold mb-6">About Me</h2>
     <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto">
-      <img
+      <ProfileCard
+          name="Joe R. Quitalig"
+          title="Application Developer support Engineer"
+          handle="javicodes"
+          status="Online"
+          contactText="Contact Me"
+          avatarUrl={`${process.env.PUBLIC_URL}/images/Profile.jpeg`}
+          showUserInfo={true}
+          enableTilt={true}
+          onContactClick={() => console.log('Contact clicked')}
+        />
+      {/* <img
         src={`${process.env.PUBLIC_URL}/images/Profile.jpeg`}
         alt="Image Here"
         className="w-48 h-48 rounded-full object-cover shadow-lg"
-      />
+      /> */}
       <div className="text-left">
         <p className="text-lg text-gray-700 dark:text-black-300 mb-4">
            Hello! I'm <strong>Joe R. Quitalig</strong>, a dedicated IT professional with over four years of experience in software management and quality assurance. Proficient in SAP ABAP, Java, and Python, with a strong desire to expand my knowledge of SAP ABAP. Eager to apply my expertise in automation and data management to contribute to a progressive organization, enhancing operational efficiency and driving innovative solutions.
