@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "autoprefixer": "^10.4.15",
-    "gh-pages": "^6.3.0",
     "locomotive-scroll": "^4.1.4",
     "ogl": "^1.0.11",
     "postcss": "^8.4.21",
@@ -18,7 +17,7 @@
     "tailwindcss": "^3.3.3",
     "web-vitals": "^5.0.3"
   },
-  "homepage": "https://yourusername.github.io/my-portfolio",
+  "homepage": "https://billyjoequitalig.github.io/my-portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -56,5 +55,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/billyjoequitalig/my-portfolio/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

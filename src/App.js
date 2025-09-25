@@ -27,14 +27,15 @@ function App() {
       <div className="absolute top-0 left-0 w-full h-full z-10"></div>
       <div className="App">
         <Header />
-        <main>
+        <main className='main-content'>
           <About />
           <Projects />
           <Contact />
           {/* <ProfileCard /> */}
         </main>
-        <Footer />
+        
       </div>
+      <Footer/>
     </div>
   );
 }

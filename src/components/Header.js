@@ -22,7 +22,10 @@ const Header = () => {
       <nav className="mt-4 md:mt-0">
         <a href="#about" className="mx-4 hover:underline transition duration-500">About</a>
         <a href="#projects" className="mx-4 hover:underline transition duration-500">Projects</a>
+        <a href="#Certificates" className="mx-4 hover:underline transition duration-500">Certificates</a>
         <a href="#contact" className="mx-4 hover:underline transition duration-500">Contact</a>
+        
+        
       </nav>
     </header>
   );
